@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,8 +7,10 @@
     <link rel="icon" href="img/favicon.ico" />
     <link rel="apple-touch-icon" href="img/logo192.png" />
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script>
+		ScrollReveal({ duration: 1000 })
+	</script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Cosmic Pages</title>
@@ -18,9 +20,9 @@
     <header class="sticky-top">
         <nav class="navbar navbar-expand-md navbar-dark bg-info">
             <div class="container">
-                <img src="img/logo192.png" class="logo" alt="logo"> 
+                <img src="img/logo.png" class="logo" alt="logo">
                 <a class="navbar-brand" href="#">
-                   Cosmic Pages
+                    Cosmic Pages
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
                     <span class="navbar-toggler-icon"></span>
@@ -34,11 +36,11 @@
             </div>
         </nav>
     </header>
-    <div class="container-fluid container-cel">
+    <div class="container-fluid container-cellphone">
         <div class="row mt-5 mx-xl-5 mx-md-5">
             <div class="col-xl-3 col-lg-6 col-md-12 col-sm-6">
-                <div class="card " >
-                    <img src="img/perfil.png" class="card-img-top img-perfil" alt="photo-perfil">
+                <div class="card card-photo">
+                    <img src="img/photo.jpg" class="card-img-top img-perfil" alt="photo-perfil">
                     <div class="card-body">
                         <h5 class="title-perfil">Javier Contreras</h5>
                         <ul>
@@ -50,10 +52,11 @@
             </div>
             <div class="col-xl-9 col-lg-6 col-md-12">
                 <div class="jumbotron">
+                    <div class="wrap-jumbotron">
                     <section>
-                        <h1 class="texto-info text-justify-content">Información sobre mi</h1>
+                        <h1 class="texto-jumbotron text-justify-content">Información sobre mi</h1>
                         <p class="lead">Ingeniero informatico recien egresado, con experiencia practica en soporte y
-                            redes, diseñador wordpress.
+                            redes, y en diseño web en wordpress.
                             Actualmente estoy en el desarrollo web, principalmente en el
                             front-end.
                         </p>
@@ -89,11 +92,11 @@
                             </div>
                             <div class="col-xl-2 col-lg-6 col-md-6">
                                 <p class="font-weight-bold">Base de Datos</p>
-                                    <ul>
-                                        <li class="formato">Mongo DB</li>
-                                        <li class="formato">Oracle</li>
-                                        <li class="formato">mySql</li>
-                                    </ul>
+                                <ul>
+                                    <li class="formato">Mongo DB</li>
+                                    <li class="formato">Oracle</li>
+                                    <li class="formato">mySql</li>
+                                </ul>
                             </div>
                             <div class="col-xl-3 col-lg-6 col-md-6">
                                 <p class="font-weight-bold">Otros</p>
@@ -104,16 +107,17 @@
                             </div>
                         </div>
                     </section>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="proyectos">
             <div class="container mb-5">
-                <h1 class="text-center my-2 mb-5 text-dark texto-main">Proyectos desarrollados</h1>
+                <h1 class="text-center my-2 mb-5 texto-subtitle">Proyectos Personales</h1>
+                <div id="proyectos">
                 <div class="row mx-lg-1 mx-md-4">
                     <div class="col-lg-4 col-md-6">
                         <div class="card" class="card-proyect">
-                            <img src="img/1.PNG" class="card-img-top img-tamano" alt="img1">
+                            <img src="img/img1.png" class="card-img-top img-tamano" alt="img1">
                             <div class="card-body">
                                 <h5 class="card-title">Buscador de peliculas</h5>
                                 <p class="card-text">Aplicación sencilla de caracter infomativo sobre peliculas</p>
@@ -124,7 +128,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="card" class="card-proyect">
-                            <img src="img/2.PNG" class="card-img-top img-tamano" alt="img2">
+                            <img src="img/img2.png" class="card-img-top img-tamano" alt="img2">
                             <div class="card-body">
                                 <h5 class="card-title">Sismos en Chile</h5>
                                 <p class="card-text">Aplicación informativa de sismos en Chile, con
@@ -134,12 +138,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12">
+                    <div class="col-lg-4 col-md-6">
                         <div class="card" class="card-proyect">
-                            <img src="img/3.PNG" class="card-img-top img-tamano" alt="img3">
+                            <img src="img/img3.png" class="card-img-top img-tamano" alt="img3">
                             <div class="card-body">
                                 <h5 class="card-title">Template webpack & react</h5>
-                                <p class="card-text">Configuracion inicial de webpack y react</p>
+                                <p class="card-text">Configuracion inicial de webpack con react</p>
                                 <a href="https://github.com/Javier-Cosmic/Webpack-react-template"
                                     class="btn btn-outline-info">Conseguir</a>
                             </div>
@@ -148,15 +152,13 @@
                 </div>
             </div>
         </div>
-
-
     </div>
 
-
-
-
-
-
+    <script>
+		ScrollReveal().reveal('.wrap-jumbotron', { delay: 200 })
+		ScrollReveal().reveal('.texto-subtitle', { delay: 200 })
+        ScrollReveal().reveal('.card-photo',{ scale: 0.85 });
+	</script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -167,6 +169,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
+
 </body>
 
 </html>

@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .formato{
     list-style: none;
     margin-left: -30px;
@@ -29,18 +32,19 @@
 }
 
 .logo{
-    width: 3%;
-    margin-right: 7px;
+    width: 30px;
+    margin-right: 8px;
 }
 
-.texto-main{
+.texto-subtitle{
     font-weight: 100;
     font-size: 4em;
 }
 
-.texto-info{
+.texto-jumbotron{
     font-weight: 100;
     font-size: 3em;
+    margin-bottom: 14px;
 }
 
 
@@ -52,20 +56,21 @@
 
  @media (max-width: 576px) {
     .logo{
-        width: 48px;
+        width: 45px;
     }
 
-    .container-cel{
+    .container-cellphone{
         margin-top: -35px;
         padding: 10px;
     }
 
-    .texto-main{
-        font-size: 2em;
+    .texto-jumbotron{
+        font-size: 45px;
+        margin-bottom: 30px;
     }
 
-    .texto-info{
-        font-size: 2em;
+    .texto-subtitle{
+        font-size: 3em;
     }
 
     .card-proyect{
