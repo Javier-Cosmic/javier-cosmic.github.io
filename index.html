@@ -1,13 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" href="img/logo192.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Cosmic Pages</title>
 </head>
+
 <body>
-    <h1 class="text-center mt-5 text-primary display-4">Paginas de Javier Cosmic</h1>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-info">
+            <div class="container">
+                <img src="img/logo192.png" class="logo" alt="logo"> 
+                <a class="navbar-brand" href="#">
+                   Cosmic Pages
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid container-cel">
+        <div class="row mt-5 mx-xl-5 mx-md-5">
+            <div class="col-xl-3 col-lg-6 col-md-12 col-sm-6">
+                <div class="card " >
+                    <img src="img/perfil.png" class="card-img-top img-perfil" alt="photo perfil">
+                    <div class="card-body">
+                        <h5 class="title-perfil">Javier Contreras</h5>
+                        <ul>
+                            <li class="subtitle-perfil">Desarrollador web front-end</li>
+                            <li class="subtitle-perfil">24 años</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-9 col-lg-6 col-md-12">
+                <div class="jumbotron">
+                    <section>
+                        <h1 class="texto-info text-justify-content">Información sobre mi</h1>
+                        <p class="lead">Ingeniero informatico recien egresado, con experiencia practica en soporte y
+                            redes, diseñador wordpress.
+                            Actualmente estoy en el desarrollo web, principalmente en el
+                            front-end.
+                        </p>
+                        <h6 class="mt-5">Conocimientos</h6>
+                        <hr class="mb-2">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-4 col-md-4">
+                                <p class="font-weight-bold">Front-End</p>
+                                <ul>
+                                    <li class="formato">React JS</li>
+                                    <li class="formato">Hooks</li>
+                                    <li class="formato">Redux</li>
+                                    <li class="formato">Webpack</li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-2 col-lg-4 col-md-4">
+                                <p class="font-weight-bold">Back-End</p>
+                                <ul>
+                                    <li class="formato">Javascript</li>
+                                    <li class="formato">Node</li>
+                                    <li class="formato">Express</li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-4">
+                                <p class="font-weight-bold">Maquetacion y diseño</p>
+                                <ul>
+                                    <li class="formato">Material UI</li>
+                                    <li class="formato">Styled components</li>
+                                    <li class="formato">Bootstrap 4 / Bulma</li>
+                                    <li class="formato">Sass / CCS3 / HTML </li>
+                                    <li class="formato">Photoshop</li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-2 col-lg-6 col-md-6">
+                                <p class="font-weight-bold">Base de Datos</p>
+                                    <ul>
+                                        <li class="formato">Mongo DB</li>
+                                        <li class="formato">Oracle</li>
+                                        <li class="formato">mySql</li>
+                                    </ul>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <p class="font-weight-bold">Otros</p>
+                                <ul>
+                                    <li class="formato">Certificacion Scrum fundamentals</li>
+                                    <li class="formato">Ingles basico</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div id="proyectos">
+            <div class="container mb-5">
+                <h1 class="text-center my-2 mb-5 text-dark texto-main">Proyectos desarrollados</h1>
+                <div class="row mx-lg-1 mx-md-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card" class="card-proyect">
+                            <img src="img/1.PNG" class="card-img-top img-tamano" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Buscador de peliculas</h5>
+                                <p class="card-text">Aplicación sencilla de caracter infomativo sobre peliculas</p>
+                                <a href="https://javier-cosmic.github.io/buscador-de-peliculas/"
+                                    class="btn btn-outline-info">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card" class="card-proyect">
+                            <img src="img/2.PNG" class="card-img-top img-tamano" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sismos en Chile</h5>
+                                <p class="card-text">Aplicación informativa de sismos en Chile, con
+                                    dark mode</p>
+                                <a href="https://javier-cosmic.github.io/sismos-chile/"
+                                    class="btn btn-outline-info">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card" class="card-proyect">
+                            <img src="img/3.PNG" class="card-img-top img-tamano" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Template webpack & react</h5>
+                                <p class="card-text">Configuracion inicial de webpack y react</p>
+                                <a href="https://github.com/Javier-Cosmic/Webpack-react-template"
+                                    class="btn btn-outline-info">Conseguir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

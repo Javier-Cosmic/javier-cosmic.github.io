@@ -1,0 +1,74 @@
+.formato{
+    list-style: none;
+    margin-left: -30px;
+    font-size: 14px;
+}
+
+.img-tamano{
+    height: 350px;
+    object-fit: none;
+}
+
+.img-perfil{
+    object-fit: cover;
+}
+
+.img-tamano:hover{
+    object-fit: contain;
+}
+
+.title-perfil{
+    font-size: 30px;
+    font-weight: inherit;
+}
+
+.subtitle-perfil{
+    list-style: none;
+    margin-left: -30px;
+    font-size: 18px;
+}
+
+.logo{
+    width: 3%;
+    margin-right: 7px;
+}
+
+.texto-main{
+    font-weight: 100;
+    font-size: 4em;
+}
+
+.texto-info{
+    font-weight: 100;
+    font-size: 3em;
+}
+
+
+@media (max-width: 768px) {
+    .logo{
+        width: 5%;    
+    }
+ }
+
+ @media (max-width: 576px) {
+    .logo{
+        width: 48px;
+    }
+
+    .container-cel{
+        margin-top: -35px;
+        padding: 10px;
+    }
+
+    .texto-main{
+        font-size: 2em;
+    }
+
+    .texto-info{
+        font-size: 2em;
+    }
+
+    .card-proyect{
+        width: 15rem;
+    }
+ }
